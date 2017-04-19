@@ -1,0 +1,84 @@
+/*header.php*/
+/*µÇÂ½Ò³Ãæ*/
+.login-register-div
+{
+	border-radius:10px;
+	background:#F0F0F0;
+}
+.input-button
+{
+	width:200px;
+	height:30px;
+}
+.login-input-verifi
+{
+	width:60px;
+	height:30px;
+}
+#login-div
+{
+	width:500px;
+	height:330px;
+	display:none;
+	z-index:1001;
+}
+#login-main
+{
+	width:400px;
+	top:30px;
+	left:50px;
+	height:220px;
+	text-align:center;
+}
+#input-verification
+{
+	left:63px;
+}
+.login-button
+{
+	width:210px;
+	height:30px;
+	left:63px;
+	line-height:30px;
+	letter-spacing:5px;
+}
+#login-submit
+{
+	margin-top:65px;
+}
+#login-cancel
+{
+	margin-top:112px;
+}
+#alert_login
+{
+	left:70px;
+}
+/*×¢²áÒ³Ãæ*/
+#register-div
+{
+	width:500px;
+	height:380px;
+	display:none;	
+	z-index:1001;
+}
+.register-button{
+	width:201px;
+	height:30px;
+	left:129px;
+	line-height:30px;
+	letter-spacing:5px;
+}
+#register-submit
+{
+	
+	margin-top:20px;
+}
+#register-cancel
+{
+	margin-top:65px;
+}
+#alert_register
+{
+	left:140px;
+}

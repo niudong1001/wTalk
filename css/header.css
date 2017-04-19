@@ -1,0 +1,41 @@
+/*header.php*/
+#container{height:60px;}
+#logo{width:157px;height:60px;left:0;top:0;}
+#menu{width:100px;top:0px;height:60px;float:right;}
+#menu ul li{line-height:60px;margin-left:1px;text-align:center;width:70px;background-color:#F0F0F0;}
+/*#menu ul li ul{display:none;line-height:30px;margin:0;padding:0;}*/
+/*#menu ul li ul li{margin:0;padding:0;line-height:38px;}*/
+/*
+#menu ul li:hover ul
+{
+	display:block;
+	position:absolute;
+	top:50px;
+	width:65px;
+	height:3px;
+	background:#37A4CB;
+	z-index:1000;
+}*/
+#menu ul li:hover{background-color:#37A4CB;}
+#menu ul li a:hover{color:white;}
+#login-register{text-align:center;right:0px;top:0;width:340px;}
+#login,#register
+{
+	border-radius:15px; background-color:#37A4CB; margin-left:3px;width:95px;
+	text-align:center;color:white;height:20px;margin-top:20px;
+	float:right;
+}
+#logout,#personalCenter,#welcome,#send
+{
+	float:right;
+	margin-left:4px;
+	text-align:center;color:black;height:20px;margin-top:20px;
+}
+#personalCenter:hover{color:#37A4CB;}
+#send:hover{color:#37A4CB;}
+#logout:hover{color:#37A4CB;}
+#login:hover,#register:hover{background-color:black;cursor:pointer;}
+#input-verification_img{position:absolute;left:130px;top:130px;}
+#bgHidden{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000;filter:alpha(opacity=50);
+	opacity:0.5;
+	display:none;}
